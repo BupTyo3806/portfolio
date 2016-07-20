@@ -1,0 +1,92 @@
+@import "fonts.css";
+
+body {
+    font-family: ClearSans-Regular, serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    background-color: #5584b1;
+    border-bottom: 5px solid #254e7b;
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    display: block;
+    box-sizing: border-box;
+    margin: 15px 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #f8f3ea;
+    text-transform: uppercase;
+}
+
+header nav a:hover,
+header nav a.active{
+    font-weight: bold;
+    color: #cbe2ef;
+    border-bottom: 2px solid #cbe2ef;
+}
+
+main {
+    width: 940px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main article {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #85c1e5;
+}
+
+main article a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main article p {
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: #5584b1;
+    border-top: 5px solid #254e7b;
+    box-shadow: 0 0 10px 0 #000;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: ClearSans-Thin, serif;
+    font-size: 15px;
+    color: #f8f3ea;
+}
+
+footer section p {
+    margin-top: 5px;
+}
