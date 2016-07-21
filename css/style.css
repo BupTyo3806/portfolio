@@ -67,15 +67,17 @@ main article {
     margin-bottom: 50px;
     margin-left: 20px;
     padding-left: 15px;
-    border-left: 4px solid #85c1e5;
+    /*border-right: 4px solid #85c1e5;
+    border-bottom: 4px solid #85c1e5;*/
+    box-shadow: 5px 5px 5px -4px #b1b1b1;
 }
 
 main article img {
     display: block;
-    width: 350px;
+    width: 300px;
     height: 100%;
-    margin: auto 15px auto 0;
-    border: 2px dashed #000;
+    margin: auto 20px auto 0;
+    border: 2px solid #b1b1b1;
 }
 
 main article .article-body {
