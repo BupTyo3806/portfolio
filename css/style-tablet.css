@@ -3,6 +3,12 @@
         width: 100%;
     }
 
+    header nav a:hover{
+        font-weight: normal;
+        color: #f8f3ea;
+        border-bottom: none;
+    }
+
     main {
         width: 100%;
     }

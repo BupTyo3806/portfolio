@@ -49,8 +49,7 @@ header nav a {
     text-transform: uppercase;
 }
 
-header nav a:hover,
-header nav a.active{
+header nav a:hover{
     font-weight: bold;
     color: #cbe2ef;
     border-bottom: 2px solid #cbe2ef;
