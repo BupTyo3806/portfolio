@@ -9,7 +9,8 @@ if (deviceWidth <= 642) {
     var topButton = $("#topButton");
     $(document).scroll(function () {
         if ($(document).scrollTop() > headerHeight) {
-            topButton.css({"position": "fixed",
+            topButton.css({
+                "position": "fixed",
                 "top": "0",
                 "background-color": "#5584b1",
                 "width": "100%",
@@ -21,3 +22,13 @@ if (deviceWidth <= 642) {
     });
 
 }
+
+$("#ledButton, #poButton").click(function () {
+    var elementClick = $(this).attr("href");
+    var destination = $("#" + elementClick).offset().top;
+    var difference = destination - 100;
+    if (difference != 0) {
+        $(document).scrollTop(difference);
+    }
+    return false;
+});
