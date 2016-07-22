@@ -1,0 +1,13 @@
+@media (max-width: 940px) {
+    .container {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main article {
+        box-shadow: 0 5px 5px -4px #b1b1b1;
+    }
+}

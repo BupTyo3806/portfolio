@@ -1,0 +1,44 @@
+@media (max-width: 642px) {
+    header {
+        position: static;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    header .container img {
+        height: 70px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    header nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav a {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    main article {
+        flex-direction: column;
+    }
+
+    main article img {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    footer .container section {
+        text-align: center;
+    }
+
+}
