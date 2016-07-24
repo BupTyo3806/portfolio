@@ -13,16 +13,17 @@
     <div class="container">
         <img src="images/logo.png" alt="Microsmon">
         <nav>
-            <a id="topButton" href="#">В начало</a>
-            <a id="gsmButton" href="#">GSM</a>
-            <a id="ledButton" href="led">LED</a>
-            <a id="poButton" href="po">Программные продукты</a>
+            <a id="topButton" href="#beginAnchor">В начало</a>
+            <a id="gsmButton" href="#gsmAnchor">GSM</a>
+            <a id="ledButton" href="#ledAnchor">LED</a>
+            <a id="poButton" href="#poAnchor">Программные продукты</a>
         </nav>
     </div>
 </header>
-<main>
+<main id="beginAnchor">
+    <span id="gsmAnchor" class="group-title">GSM</span>
     <article>
-        <img src="images/gsm.jpg" alt="Microsmon">
+        <img src="images/usnlite.jpg" alt="Microsmon">
         <div class="article-body">
             <a href="">Freematics OBD-II UART & I2C Adapter (for Arduino)</a><br>
             <strong>Features:</strong>
@@ -51,8 +52,8 @@
             </ul>
         </div>
     </article>
-    <a id="led"></a>
-    <article>
+    <span id="ledAnchor" class="group-title">LED</span>
+    <article >
         <img src="images/led.jpg" alt="Microsmon">
         <div class="article-body">
             <a href="">Freematics OBD-II UART & I2C Adapter (for Arduino)</a><br>
@@ -82,8 +83,8 @@
             </ul>
         </div>
     </article>
-    <a id="po"></a>
-    <article>
+    <span id="poAnchor" class="group-title">Программные продукты</span>
+    <article >
         <img src="images/po.jpg" alt="Microsmon">
         <div class="article-body">
             <a href="">Freematics OBD-II UART & I2C Adapter (for Arduino)</a><br>
@@ -127,6 +128,7 @@
     </div>
 </footer>
 <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

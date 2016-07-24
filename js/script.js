@@ -20,15 +20,11 @@ if (deviceWidth <= 642) {
             topButton.css({"position": "static"});
         }
     });
-
 }
 
-$("#ledButton, #poButton").click(function () {
-    var elementClick = $(this).attr("href");
-    var destination = $("#" + elementClick).offset().top;
-    var difference = destination - 100;
-    if (difference != 0) {
-        $(document).scrollTop(difference);
-    }
+
+$("header nav a").click(function () {
+    var str = $(this).attr('href');
+    $(document).scrollTo(str, 500, {offset: -100});
     return false;
 });
