@@ -5,7 +5,6 @@ var deviceWidth = $(document).width();
 
 if (deviceWidth <= 642) {
     var headerHeight = $("header .container").height();
-    console.log(headerHeight);
     var topButton = $("#topButton");
     $(document).scroll(function () {
         if ($(document).scrollTop() > headerHeight) {
@@ -20,11 +19,23 @@ if (deviceWidth <= 642) {
             topButton.css({"position": "static"});
         }
     });
+
+    $("header nav a").click(function () {
+        var str = $(this).attr('href');
+        var offset = -120;
+        if (str == "#topAnchor") {
+            offset = -headerHeight;
+        }
+        $(document).scrollTo(str, 500, {offset: offset});
+        return false;
+    });
+} else {
+    $("header nav a").click(function () {
+        var str = $(this).attr('href');
+        $(document).scrollTo(str, 500, {offset: -100});
+        return false;
+    });
 }
 
 
-$("header nav a").click(function () {
-    var str = $(this).attr('href');
-    $(document).scrollTo(str, 500, {offset: -100});
-    return false;
-});
+
