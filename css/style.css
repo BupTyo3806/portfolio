@@ -32,6 +32,15 @@ header .container img {
     margin-bottom: 3px;
 }
 
+header .container .logo-text {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #f8f3ea;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
 header nav {
     width: 100%;
     display: flex;
