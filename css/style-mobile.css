@@ -11,6 +11,12 @@
         flex-direction: column;
     }
 
+    header .container .logo-text {
+        width: 100%;
+        margin: 10px auto auto;
+        text-align: center;
+    }
+
     header .container img {
         height: 70px;
         margin: auto;

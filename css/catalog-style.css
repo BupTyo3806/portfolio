@@ -1,0 +1,16 @@
+section {
+    margin: 30px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+section .section-image {
+}
+
+@media (max-width: 642px) {
+
+    section .section-image {
+        width: 100%;
+        float: none;
+    }
+}
