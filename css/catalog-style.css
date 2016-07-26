@@ -1,10 +1,17 @@
 section {
-    margin: 30px;
+    margin: 0 30px 30px 30px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 section .section-image {
+    display: block;
+    margin: auto;
+}
+
+section .download {
+    text-decoration: solid;
+    color: #254e7b;
 }
 
 @media (max-width: 642px) {

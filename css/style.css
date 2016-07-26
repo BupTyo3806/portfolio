@@ -105,18 +105,29 @@ main article img {
     margin: auto 20px 15px 0;
 }
 
+main article ul {
+    margin: 5px 0 15px 0;
+}
+
 main article .article-body {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 main article a {
+    display: block;
+    margin-bottom: 5px;
     font-size: 18px;
     font-weight: bold;
+    color: #254e7b;
+}
+
+main article a:hover {
+    color: #5584b1;
 }
 
 footer {
     width: 100%;
-    background-color: #5584b1;
+    background-color: #4281b4;
     /*border-top: 5px solid #254e7b;
     box-shadow: 0 0 10px 0 #000;*/
 }
