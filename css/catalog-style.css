@@ -5,7 +5,8 @@ section {
 }
 
 section .section-image {
-    display: block;
+    display: inline-block;
+	width: calc(50% - 3px);
     margin: auto;
 }
 
