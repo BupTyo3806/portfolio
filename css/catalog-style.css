@@ -6,11 +6,12 @@ section {
 
 section .section-p {
     text-align: justify;
+    text-indent: 30px;
 }
 
 section .section-p a{
     text-decoration: underline;
-	color: #f00;
+	color: #254e7b;
 }
 
 section .section-image {
