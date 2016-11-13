@@ -8,6 +8,11 @@ section .section-p {
     text-align: justify;
 }
 
+section .section-p a{
+    text-decoration: underline;
+	color: #f00;
+}
+
 section .section-image {
     display: inline-block;
 	width: calc(50% - 3px);
