@@ -4,10 +4,19 @@ section {
     font-size: 16px;
 }
 
+section .section-p {
+    text-align: justify;
+}
+
 section .section-image {
     display: inline-block;
 	width: calc(50% - 3px);
     margin: auto;
+}
+section .section-image-multi {
+    display: inline-block;
+	width: calc(26%);
+    margin: 10px 30px 10px 30px;
 }
 
 section .download {
