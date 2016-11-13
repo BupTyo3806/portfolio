@@ -15,7 +15,7 @@ section .section-image {
 }
 section .section-image-multi {
     display: inline-block;
-	width: calc(26%);
+	width: calc((100% - 190px) / 3); /*6 margin и 2 padding у родителя*/
     margin: 10px 30px 10px 30px;
 }
 
@@ -30,4 +30,9 @@ section .download {
         width: 100%;
         float: none;
     }
+	
+	section .section-image-multi {
+	width: 100%; 
+    margin: auto;
+}
 }
